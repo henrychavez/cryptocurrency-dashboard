@@ -91,6 +91,16 @@ npx nx test backend --coverage
 
 ---
 
+## Documentation
+
+| Document | Description |
+|---|---|
+| [docs/architecture.md](docs/architecture.md) | Nx workspace layout, module graph, responsibility of each service |
+| [docs/websocket-flows.md](docs/websocket-flows.md) | Sequence diagrams for both WebSocket connections and reconnection logic |
+| [docs/events-reference.md](docs/events-reference.md) | All Socket.IO events, TypeScript payloads, and frontend state transitions |
+
+---
+
 ## Architecture
 
 ### Backend
